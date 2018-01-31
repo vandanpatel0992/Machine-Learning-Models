@@ -5,7 +5,6 @@
 # Data Preprocessing Template
 #press ctrl+i on editor/source to see the definitions
 
-
 # Importing the libraries
 import numpy as np #to use mathematics in the code
 import matplotlib.pyplot as plt #to do visualization
@@ -24,7 +23,6 @@ from sklearn.preprocessing import Imputer #from 'sklearn' package import 'prepro
 imputer = Imputer(missing_values='NaN', strategy='mean', axis=0) #creates an object of Imputer class ('NaN' not 'nan')
 imputer = imputer.fit(X[:,1:3]) #selects the columns needed to be transformed, apply 'fit' method 
 X[:,1:3] = imputer.transform(X[:,1:3]) #updates the columns with the transformed values
-
 a=imputer.fit_transform(X[:,1:3]) #fit_transform gives the same results as of doing seperately 
 
 # Encoding the categorical variables
