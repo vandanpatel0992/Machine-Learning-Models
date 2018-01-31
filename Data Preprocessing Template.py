@@ -1,7 +1,3 @@
-"""
-@author: Vandan
-"""
-
 # Data Preprocessing Template
 #press ctrl+i on editor/source to see the definitions
 
