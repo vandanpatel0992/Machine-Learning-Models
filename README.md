@@ -1,0 +1,2 @@
+# Machine-Learning-Models
+This repository contains Python codes for Regression (Simple/Multi Linear, Polynomial, Support Vector, Decision Tree, and Random Forest), Classification (Logistic, K-Nearest Neighbors, Support Vector Machine, Kernel SVM, Decision Tree, Random Forest) and Clustering (K-means, Hierarchical) models for various real world applications using packages such as Scikit-learn, NumPy, Pandas and Matplotlib.
